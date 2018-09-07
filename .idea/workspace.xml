@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ba9ffb6-9478-4c93-ac65-28ca38301767" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ba9ffb6-9478-4c93-ac65-28ca38301767" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -33,20 +30,20 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="ejs" value="1" />
-          <entry key="js" value="42" />
-          <entry key="json" value="11" />
+          <entry key="js" value="49" />
+          <entry key="json" value="12" />
           <entry key="lock" value="1" />
           <entry key="sh" value="1" />
           <entry key="ts" value="1" />
-          <entry key="www" value="3" />
+          <entry key="www" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="EJS" value="1" />
-          <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="45" />
+          <entry key="JSON" value="12" />
+          <entry key="JavaScript" value="53" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="yarn.lock" value="1" />
@@ -56,18 +53,22 @@
         <counts>
           <entry key="js" value="572" />
           <entry key="json" value="5" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="572" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="3" />
+          <entry key="git.branch.checkout.revision" value="1" />
+          <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="1" />
         </counts>
       </usages-collector>
@@ -179,7 +180,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ec00ae98067bc91e0b8f5522d3552f8883a1ab2e" />
       </map>
     </option>
   </component>
@@ -329,12 +330,12 @@
       <workItem from="1536205322870" duration="7289000" />
       <workItem from="1536213258636" duration="748000" />
       <workItem from="1536283072049" duration="10983000" />
-      <workItem from="1536295119326" duration="360000" />
+      <workItem from="1536295119326" duration="746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24049000" />
+    <option name="totallyTimeSpent" value="24435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +347,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18440464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
