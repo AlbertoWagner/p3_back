@@ -1,48 +1,21 @@
 {
   "name": "p3_back",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "cls-bluebird": "^2.1.0",
-    "mysql": "^2.16.0",
-    "pg": "^7.4.3",
-    "pg-hstore": "^2.3.2",
-    "sequelize": "^4.38.0",
-    "sqlite3": "^4.0.2",
-    "tedious": "^2.6.4",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "ejs": "~2.5.7",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "morgan": "^1.9.0",
-    "http": "0.0.0",
-    "mongodb": "^3.1.4",
-    "mongoose": "^5.2.13",
-    "redis": "^2.8.0",
-    "p": "^0.2.0",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
-    "swagger-express": "^1.0.5",
-    "swagger-ui-express": "^4.0.1",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "connect-mongo": "^2.0.1",
-    "express-session": "^1.15.6",
-    "method-override": "^3.0.0",
-    "underscore": "^1.9.1"
-  },
+  "description": "ProjetoP3",
+  "main": "noticias.js",
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon ./bin/server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlbertoWagner/p3_back.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Alberto"
+  ],
+  "author": "Alberto Wagner",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlbertoWagner/p3_back/issues"
