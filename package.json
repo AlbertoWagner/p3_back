@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "ProjetoP3",
   "main": "noticias.js",
-  "dependencies": {},
+  "dependencies": {
+    "mysql": "^2.10.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
