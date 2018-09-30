@@ -1,17 +1,15 @@
-module.exports = function(app){
-    app.get('/noticias', function(req,res){
 
-        var mysql = require('mysql');
 
-        var connection = mysql.createConnection({
-            host: 'localhost',
-            user: 'root',
-            password: '',
-            database: 'portal_noticias'
+module.exports = function(application){
+
+    application.get('/noticias', function(req,res){
+
+        var connection = application.config.dbConnection();
+        var noticiasModel = new application.app.models.NoticiasDAO(connection);
+
+        noticiasModel.getNoticias(function(error, result){
+            res.render('noticias/noticias', { noticias : result });
         });
 
-        connection.query("SELECT * FROM noticias", function(error, result){
-            res.send(result);
-        });
     });
-};
+}
