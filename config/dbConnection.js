@@ -4,7 +4,7 @@ var connMySql = function(){
         host: 'localhost',
         user: 'root',
         password: '',
-        database: 'portal_noticias'
+        database: 'task'
     });
 };
 

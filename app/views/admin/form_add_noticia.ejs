@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8"/>
-	<title>Formulário de cadastro de Notícia</title>
+    <meta charset="utf-8"/>
+    <title>Formulário de novas de task</title>
 </head>
 <body>
 
-<h1>Adicionar notícia</h1>
+<h1>Adicionar task</h1>
 <br />
 
-<form action="/noticias/salvar" method="post">
-	<label>Título</label>
-	<input type="text" id="titulo" name="titulo" placeholder="Título da Notícia" />
-	<br />
-	<label>Notícia</label>
-	<textarea id="noticia" name="noticia" rows="5" cols="30"></textarea>
-	<br />
-	<input type="submit" value="Enviar" />
-</form>
+<% if(validacao){ %>
+    <ul>
+        <% for(var i = 0; i < validacao.length; i++){ %>
+            <li>
+                <%= validacao[i].msg %>
+            </li>
+        <% } %>
+    </ul>
+<% } %>
 
+<form action="/task/salvar" method="post">
+    <label>Descrição</label>
+    <input type="text" id="descricao" name="descricao" value="<%=task.descricao%>" placeholder="Descrição da Task" />
+    <br />
+    <label>Data Inicio</label>
+    <input type="date" id="calendario1"  format="yyyy/MM/dd"  name="data_inicio" value="<%=task.data_inicio%>" placeholder="data_inicio" />
+    <br />
+    <label>Data fim</label>
+    <input type="date"  format="yyyy/MM/dd" id="calendario2" name="data_fim" value="<%=task.data_fim%>" placeholder="data_fim" />
+    <br />
+    <input type="submit" value="Enviar" />
+</form>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+<script>
+    $(function() {
+        $("#calendario1").datepicker({dateFormat: 'yy-mm-dd'});
+    });        $("#calendario2").datepicker({dateFormat: 'yy-mm-dd'});
+
+</script>
 </body>
 </html>
