@@ -1,7 +1,9 @@
 
 module.exports = function(application){
     application.get('/',function (req,res) {
-        application.app.controllers.home.index(application,req,res);
+        var message = '';
+        message = 'Wrong Credentials.';
+        res.render('home/index',{message: message});
     });
 };
 
