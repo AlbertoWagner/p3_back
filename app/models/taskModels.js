@@ -1,5 +1,35 @@
 function TaskModels(connection){
     this._connection = connection;
+
+
+
+        var sql = "CREATE TABLE IF NOT EXISTS `users` (\n"+
+        "`id` int(5) NOT NULL AUTO_INCREMENT,\n"+
+        "`first_name` text NOT NULL,\n"+
+        "`last_name` text NOT NULL,\n"+
+        "`mob_no` int(11) NOT NULL,\n"+
+        "`user_name` varchar(20) NOT NULL,\n"+
+        "`password` varchar(15) NOT NULL,\n"+
+        "PRIMARY KEY (`id`)\n"+ ");";
+
+    connection.query(sql, function (error, results, fields){
+            if(error) return console.log(error);
+            console.log('criou a tabela!');
+        });
+
+    var sql2 = "CREATE TABLE IF NOT EXISTS `task` (\n"+
+        "`id_task`  int NOT NULL AUTO_INCREMENT,\n"+
+        "`descricao` varchar(100),\n"+
+        "`data_inicio` timestamp default current_timestamp,\n"+
+        "`data_fim` timestamp default current_timestamp,\n"+
+        "PRIMARY KEY (`id_task`)\n"+ ");";
+
+    connection.query(sql2, function (error, results, fields){
+        if(error) return console.log(error);
+        console.log('criou a tabela!');
+    });
+
+
 }
 
 TaskModels.prototype.getTasks = function(callback){
