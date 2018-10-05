@@ -8,9 +8,9 @@ module.exports.existe_user = function(application, req, res){
 
     taskModel.usuarioExiste(user,function(error, result){
         console.log(result);
-        if(result== undefined){
+        if(result== undefined || result == "undefined"){
             var message = '';
-            message = 'Usuario não existe';
+            message = 'Erro';
             res.render('home/index',{message: message});
         }else{
             res.render('noticias/noticias', { task : result });

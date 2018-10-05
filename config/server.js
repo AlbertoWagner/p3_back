@@ -3,12 +3,16 @@ var consign = require('consign');
 var bodyParser = require('body-parser');
 var expressValidator = require('express-validator');
 var session = require('express-session');
+var swaggerUi =  require('swagger-ui-express');
+    swaggerDocument =  require('../swagger.json');
 
 var app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', './app/views');
 app.use(bodyParser.urlencoded({extend:true}));
+app.use('/api-docs' , swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
 app.use(expressValidator());
 app.use(session({
     secret: 'keyboard cat',

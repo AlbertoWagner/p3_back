@@ -65,7 +65,7 @@ TaskModels.prototype.usuarioExiste = function(user,callback){
     this._connection.query('SELECT * from users  WHERE user_name = ?   ',user_name, (err, res) => {
         console.log(err, res, res); // deve dar null, [], 0
         if (res.length == 0){
-            // this._connection.query('SELECT * FROM task', callback);
+            return "undefined"
         }else{
             this._connection.query('SELECT * from users  WHERE password = ?   ',password, (err, res) => {
                 console.log(err, res, res); // deve dar null, [], 0
