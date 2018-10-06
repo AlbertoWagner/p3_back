@@ -25,6 +25,7 @@ consign()
     .include('app/routes')
     .then('config/dbConnection.js')
     .then('app/models')
+    .then('./mod_teste.js')
     .then('app/controllers')
     .into(app);
 
