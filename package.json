@@ -17,7 +17,9 @@
     "swagger-jsdoc": "^1.9.7",
     "swagger-ui-express": "^4.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "supertest": "^3.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

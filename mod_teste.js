@@ -1,4 +1,6 @@
- module.exports = function(){
-    var msg = "Este modulo contem apenas uma string";
-    return msg;
+module.exports = function(application){
+    application.get('/',function (req,res) {
+        res.send('Profs')
+    });
 };
+
