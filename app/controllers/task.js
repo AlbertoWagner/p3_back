@@ -26,3 +26,15 @@ module.exports.deletar_task = function(application, req, res){
         res.render("noticias/noticias", {task : result});
     });
 };
+
+
+
+
+//retornando um get
+module.exports.retornatasks = function(application, req, res){
+    var connection = application.config.dbConnection();
+    var taskModel = new application.app.models.taskModels(connection);
+    taskModel.getTasks(function(error, result){
+        res.json(result)
+    });
+};
