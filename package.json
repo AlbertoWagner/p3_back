@@ -35,5 +35,7 @@
   "bugs": {
     "url": "https://github.com/AlbertoWagner/p3_back/issues"
   },
-  "homepage": "https://github.com/AlbertoWagner/p3_back#readme"
+  "homepage": "https://github.com/AlbertoWagner/p3_back#readme",
+  "proxy":"https://localhost:3000/api"
+
 }
