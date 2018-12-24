@@ -1,5 +1,7 @@
 module.exports = function(application){
     application.get('/formulario_inclusao_task', function(req,res) {
+        console.log('post',req)
+
         application.app.controllers.admin.formulario_inclusao_task(application, req, res);
     });
 

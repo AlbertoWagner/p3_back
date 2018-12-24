@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0ba9ffb6-9478-4c93-ac65-28ca38301767" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/front/src/componentes/Contador.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/componentes/FormTask.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/componentes/MainNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/componentes/Modal.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/componentes/Releases.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/componentes/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/componentes/modal.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/componentes/modal2.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/componentes/ui/ReleaseForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/componentes/ui/User.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/login.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/reactUtils.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/teste/unitTest.js" afterDir="false" />
@@ -17,7 +17,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/taskModels.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/taskModels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/home/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -35,68 +39,72 @@
     <session id="-1307742678">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="7" />
-          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="4" />
-          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.16" value="4" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="2" />
-          <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.20" value="3" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.20" value="4" />
+          <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="3" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="53" />
+          <entry key="project.opened" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="21" />
-          <entry key="ejs" value="75" />
+          <entry key="css" value="26" />
+          <entry key="ejs" value="84" />
           <entry key="gitignore" value="5" />
-          <entry key="html" value="14" />
+          <entry key="html" value="16" />
           <entry key="ico" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="557" />
-          <entry key="json" value="49" />
+          <entry key="js" value="711" />
+          <entry key="json" value="55" />
           <entry key="lock" value="1" />
-          <entry key="log" value="3" />
+          <entry key="log" value="4" />
           <entry key="md" value="2" />
-          <entry key="rnc" value="2" />
+          <entry key="rnc" value="3" />
           <entry key="server" value="1" />
           <entry key="sh" value="1" />
           <entry key="svg" value="5" />
-          <entry key="ts" value="7" />
+          <entry key="ts" value="15" />
           <entry key="txt" value="2" />
           <entry key="www" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="21" />
-          <entry key="EJS" value="75" />
-          <entry key="HTML" value="14" />
+          <entry key="CSS" value="26" />
+          <entry key="EJS" value="84" />
+          <entry key="HTML" value="16" />
           <entry key="Image" value="3" />
-          <entry key="JSON" value="49" />
-          <entry key="JavaScript" value="565" />
+          <entry key="JSON" value="55" />
+          <entry key="JavaScript" value="719" />
+          <entry key="Log" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="RNG Compact" value="2" />
+          <entry key="RNG Compact" value="3" />
           <entry key="SVG" value="5" />
-          <entry key="TypeScript" value="7" />
+          <entry key="TypeScript" value="15" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
@@ -104,8 +112,8 @@
         <counts>
           <entry key="ejs" value="819" />
           <entry key="html" value="34" />
-          <entry key="js" value="6633" />
-          <entry key="json" value="298" />
+          <entry key="js" value="9146" />
+          <entry key="json" value="306" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
@@ -113,14 +121,14 @@
         <counts>
           <entry key="EJS" value="819" />
           <entry key="HTML" value="34" />
-          <entry key="JSON" value="298" />
-          <entry key="JavaScript" value="6633" />
+          <entry key="JSON" value="306" />
+          <entry key="JavaScript" value="9146" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="3" />
+          <entry key="TypeScriptServerServiceImpl" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -138,38 +146,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/src/componentes/Contador.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="167">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/server.js">
+        <entry file="file://$PROJECT_DIR$/front/src/componentes/ui/ReleaseForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="532">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/front/src/componentes/Releases.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/componentes/MainNav.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/App.test.js">
+        <entry file="file://$PROJECT_DIR$/front/src/componentes/Modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="328">
+              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -178,57 +210,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/logo.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/App.js">
+        <entry file="file://$PROJECT_DIR$/front/src/componentes/FormTask.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="129">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="57" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/componentes/ui/ReleaseForm.js">
+        <entry file="file://$PROJECT_DIR$/front/src/componentes/modal2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/componentes/Releases.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1418">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="209">
+              <caret line="62" column="35" selection-start-line="62" selection-end-line="63" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/dbConnection.js">
+        <entry file="file://$PROJECT_DIR$/app/views/noticias/noticia.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="-342" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/noticias/noticias.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="34" selection-start-line="33" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -246,22 +262,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Don't have an account!</find>
-      <find>Sign Up Here</find>
-      <find>\n\n        var sql \= \&quot;CREATE TABLE IF NOT EXISTS Clientes \(\\n\&quot;\+\n            \&quot;ID int NOT NULL AUTO_INCREMENT\,\\n\&quot;\+\n            \&quot;Nome varchar\(150\) NOT NULL\,\\n\&quot;\+\n            \&quot;CPF char\(11\) NOT NULL\,\\n\&quot;\+\n            \&quot;PRIMARY KEY \(ID\)\\n\&quot;\+\n            \&quot;\)\;\&quot;\;\n\n        conn\.query\(sql\, function \(error\, results\, fields\)\{\n            if\(error\) return console\.log\(error\)\;\n            console\.log\(\'criou a tabela\!\'\)\;\n        \}\)\;\n</find>
-      <find>var sql \= \&quot;CREATE TABLE IF NOT EXISTS \`users\` \(\\n\&quot;\+\n        \&quot;\`id\` int\(5\) NOT NULL AUTO_INCREMENT\,\\n\&quot;\+\n        \&quot;\`first_name\` text NOT NULL\,\\n\&quot;\+\n        \&quot;\`last_name\` text NOT NULL\,\\n\&quot;\+\n        \&quot;\`mob_no\` int\(11\) NOT NULL\,\\n\&quot;\+\n        \&quot;\`user_name\` varchar\(20\) NOT NULL\,\\n\&quot;\+\n        \&quot;\`password\` varchar\(15\) NOT NULL\,\\n\&quot;\+\n        \&quot;PRIMARY KEY \(\`id\`\)\\n\&quot;\+\n\&quot;\)\&quot;\;</find>
-      <find>consign</find>
-      <find>app</find>
-      <find>swaggerJSDoc</find>
-      <find>\{\n  \&quot;swagger\&quot;\: \&quot;2\.0\&quot;\,\n  \&quot;info\&quot;\: \{\n    \&quot;version\&quot;\: \&quot;1\.0\.0\&quot;\,\n    \&quot;title\&quot;\: \&quot;Yet Another Node\.js Blogg Application API\&quot;\,\n    \&quot;description\&quot;\: \&quot;Yet Another Node\.js Blogg Application API\&quot;\,\n    \&quot;license\&quot;\: \{\n      \&quot;name\&quot;\: \&quot;MIT\&quot;\,\n      \&quot;url\&quot;\: \&quot;https\:\/\/opensource\.org\/licenses\/MIT\&quot;\n    \}\n  \}\,\n  \&quot;host\&quot;\: \&quot;localhost\:3030\&quot;\,\n  \&quot;basePath\&quot;\: \&quot;\/api\/v1\&quot;\,\n  \&quot;tags\&quot;\: \[\n    \{\n      \&quot;name\&quot;\: \&quot;Users\&quot;\,\n      \&quot;description\&quot;\: \&quot;API for users in the system\&quot;\n    \}\n  \]\,\n  \&quot;schemes\&quot;\: \[\n    \&quot;http\&quot;\n  \]\,\n  \&quot;consumes\&quot;\: \[\n    \&quot;application\/json\&quot;\n  \]\,\n  \&quot;produces\&quot;\: \[\n    \&quot;application\/json\&quot;\n  \]\,\n  \&quot;paths\&quot;\: \{\n    \&quot;\/signup\&quot;\: \{\n      \&quot;post\&quot;\: \{\n        \&quot;tags\&quot;\: \[\n          \&quot;Users\&quot;\n        \]\,\n        \&quot;description\&quot;\: \&quot;Create new user in system\&quot;\,\n        \&quot;parameters\&quot;\: \[\n          \{\n            \&quot;first_name\&quot;\: \&quot;user\&quot;\,\n            \&quot;last_name\&quot;\: \&quot;body\&quot;\,\n            \&quot;mob_no\&quot;\: \&quot;User that we want to create\&quot;\,\n            \&quot;user_name\&quot;\: \&quot;User that we want to create\&quot;\,\n            \&quot;password\&quot;\: \&quot;User that we want to create\&quot;\,\n            \n            \&quot;schema\&quot;\: \{\n              \&quot;\$ref\&quot;\: \&quot;\#\/controllers\/admin\.js\&quot;\n            \}\n          \}\n        \]\,\n        \&quot;produces\&quot;\: \[\n          \&quot;application\/json\&quot;\n        \]\,\n        \&quot;responses\&quot;\: \{\n          \&quot;200\&quot;\: \{\n            \&quot;description\&quot;\: \&quot;New user is created\&quot;\,\n            \&quot;schema\&quot;\: \{\n              \&quot;\$ref\&quot;\: \&quot;\#\/definitions\/User\&quot;\n            \}\n          \}\n        \}\n      \}\,\n      \&quot;get\&quot;\: \{\n        \&quot;tags\&quot;\: \[\n          \&quot;Users\&quot;\n        \]\,\n        \&quot;summary\&quot;\: \&quot;Get all users in system\&quot;\,\n        \&quot;responses\&quot;\: \{\n          \&quot;200\&quot;\: \{\n            \&quot;description\&quot;\: \&quot;OK\&quot;\,\n            \&quot;schema\&quot;\: \{\n              \&quot;\$ref\&quot;\: \&quot;\#\/definitions\/Users\&quot;\n            \}\n          \}\n        \}\n      \}\n    \}\,\n    \&quot;\/users\/\{userId\}\&quot;\: \{\n      \&quot;parameters\&quot;\: \[\n        \{\n          \&quot;name\&quot;\: \&quot;userId\&quot;\,\n          \&quot;in\&quot;\: \&quot;path\&quot;\,\n          \&quot;required\&quot;\: true\,\n          \&quot;description\&quot;\: \&quot;ID of user that we want to find\&quot;\,\n          \&quot;type\&quot;\: \&quot;string\&quot;\n        \}\n      \]\,\n      \&quot;get\&quot;\: \{\n        \&quot;tags\&quot;\: \[\n          \&quot;Users\&quot;\n        \]\,\n        \&quot;summary\&quot;\: \&quot;Get user with given ID\&quot;\,\n        \&quot;responses\&quot;\: \{\n          \&quot;200\&quot;\: \{\n            \&quot;description\&quot;\: \&quot;User is found\&quot;\,\n            \&quot;schema\&quot;\: \{\n              \&quot;\$ref\&quot;\: \&quot;\#\/definitions\/User\&quot;\n            \}\n          \}\n        \}\n      \}\,\n      \&quot;delete\&quot;\: \{\n        \&quot;summary\&quot;\: \&quot;Delete user with given ID\&quot;\,\n        \&quot;tags\&quot;\: \[\n          \&quot;Users\&quot;\n        \]\,\n        \&quot;responses\&quot;\: \{\n          \&quot;200\&quot;\: \{\n            \&quot;description\&quot;\: \&quot;User is deleted\&quot;\,\n            \&quot;schema\&quot;\: \{\n              \&quot;\$ref\&quot;\: \&quot;\#\/definitions\/User\&quot;\n            \}\n          \}\n        \}\n      \}\,\n      \&quot;put\&quot;\: \{\n        \&quot;summary\&quot;\: \&quot;Update user with give ID\&quot;\,\n        \&quot;tags\&quot;\: \[\n          \&quot;Users\&quot;\n        \]\,\n        \&quot;parameters\&quot;\: \[\n          \{\n            \&quot;name\&quot;\: \&quot;user\&quot;\,\n            \&quot;in\&quot;\: \&quot;body\&quot;\,\n            \&quot;description\&quot;\: \&quot;User with new values of properties\&quot;\,\n            \&quot;schema\&quot;\: \{\n              \&quot;\$ref\&quot;\: \&quot;\#\/definitions\/User\&quot;\n            \}\n          \}\n        \]\,\n        \&quot;responses\&quot;\: \{\n          \&quot;200\&quot;\: \{\n            \&quot;description\&quot;\: \&quot;User is updated\&quot;\,\n            \&quot;schema\&quot;\: \{\n              \&quot;\$ref\&quot;\: \&quot;\#\/definitions\/User\&quot;\n            \}\n          \}\n        \}\n      \}\n    \}\n  \}\,\n  \&quot;definitions\&quot;\: \{\n    \&quot;User\&quot;\: \{\n      \&quot;required\&quot;\: \[\n        \&quot;user_name\&quot;\,\n        \&quot;password\&quot;\n      \]\,\n      \&quot;properties\&quot;\: \{\n        \&quot;user_name\&quot;\: \{\n          \&quot;type\&quot;\: \&quot;string\&quot;\,\n          \&quot;uniqueItems\&quot;\: true\n        \}\,\n        \&quot;password\&quot;\: \{\n          \&quot;type\&quot;\: \&quot;string\&quot;\,\n          \&quot;uniqueItems\&quot;\: true\n        \}\,\n        \&quot;lastName\&quot;\: \{\n          \&quot;type\&quot;\: \&quot;string\&quot;\n        \}\,\n        \&quot;mob_no\&quot;\: \{\n          \&quot;type\&quot;\: \&quot;string\&quot;\n        \}\,\n        \&quot;firstName\&quot;\: \{\n          \&quot;type\&quot;\: \&quot;string\&quot;\n        \}\n      \}\n    \}\,\n    \&quot;Users\&quot;\: \{\n      \&quot;type\&quot;\: \&quot;array\&quot;\,\n      \&quot;\$ref\&quot;\: \&quot;\#\/definitions\/User\&quot;\n    \}\n  \}\n\}\n</find>
-      <find>Skip to content\n\nSearch or jump to\…\n\nPull requests\nIssues\nMarketplace\nExplore\n\@AlbertoWagner Sign out\n1\n0 0 GersonSales\/alpha\-project\-api\nCode  Issues 5  Pull requests 0  Projects 1  Wiki  Insights\nalpha\-project\-api\/config\/swagger\.json\n0202d71  10 days ago\n\@GersonSales GersonSales swap swagger scheme protocol\n\n228 lines \(225 sloc\)  5\.39 KB\n\{\n\&quot;swagger\&quot; \: \&quot;2\.0\&quot;\,\n\&quot;info\&quot; \: \{\n\&quot;description\&quot; \: \&quot;A Web Development class project\.\&quot;\,\n\&quot;version\&quot; \: \&quot;0\.0\.2\&quot;\,\n\&quot;title\&quot; \: \&quot;Alpha project\.\&quot;\,\n\&quot;license\&quot; \: \{\n\&quot;name\&quot; \: \&quot;MIT\&quot;\,\n\&quot;url\&quot; \: \&quot;https\:\/\/opensource\.org\/licenses\/MIT\&quot;\n\}\n\}\,\n\n\&quot;securityDefinitions\&quot;\: \{\n\&quot;jwt\&quot;\: \{\n\&quot;type\&quot;\: \&quot;apiKey\&quot;\,\n\&quot;in\&quot;\: \&quot;header\&quot;\,\n\&quot;name\&quot;\: \&quot;x\-access\-token\&quot;\n\}\n\}\,\n\n\&quot;security\&quot;\: \[\n\{\n\&quot;jwt\&quot;\: \[\]\n\}\n\]\,\n\n\&quot;host\&quot; \: \&quot;localhost\:3000\&quot;\,\n\&quot;basePath\&quot; \: \&quot;\/\&quot;\,\n\&quot;tags\&quot; \: \[ \{\n\&quot;name\&quot; \: \&quot;User\&quot;\,\n\&quot;description\&quot; \: \&quot;API for users in the system\&quot;\n\} \]\,\n\&quot;schemes\&quot; \: \[ \&quot;https\&quot;\, \&quot;http\&quot; \]\,\n\&quot;consumes\&quot; \: \[ \&quot;application\/json\&quot; \]\,\n\&quot;produces\&quot; \: \[ \&quot;application\/json\&quot; \]\,\n\&quot;paths\&quot; \: \{\n\&quot;\/user\&quot; \: \{\n\&quot;get\&quot; \: \{\n\&quot;tags\&quot; \: \[ \&quot;User\&quot; \]\,\n\&quot;summary\&quot; \: \&quot;Get all users in system\&quot;\,\n\&quot;parameters\&quot; \: \[ \]\,\n\&quot;responses\&quot; \: \{\n\&quot;200\&quot; \: \{\n\&quot;description\&quot; \: \&quot;OK\&quot;\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/User\&quot;\n\}\n\}\,\n\&quot;401\&quot;\: \{\n\&quot;description\&quot;\: \&quot;Unauthorized\: \&quot;\n\}\n\}\n\}\,\n\&quot;post\&quot; \: \{\n\&quot;tags\&quot; \: \[ \&quot;User\&quot; \]\,\n\&quot;summary\&quot; \: \&quot;Create new User in system\&quot;\,\n\&quot;produces\&quot; \: \[ \&quot;application\/json\&quot; \]\,\n\&quot;parameters\&quot; \: \[ \{\n\&quot;in\&quot; \: \&quot;body\&quot;\,\n\&quot;name\&quot; \: \&quot;user\&quot;\,\n\&quot;description\&quot; \: \&quot;User that we want to create\&quot;\,\n\&quot;required\&quot; \: false\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/User\&quot;\n\}\n\} \]\,\n\&quot;responses\&quot; \: \{\n\&quot;201\&quot; \: \{\n\&quot;description\&quot; \: \&quot;New user is created\&quot;\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/User\&quot;\n\}\n\}\n\}\n\}\n\}\,\n\&quot;\/user\/\{userId\}\&quot; \: \{\n\&quot;get\&quot; \: \{\n\&quot;tags\&quot; \: \[ \&quot;User\&quot; \]\,\n\&quot;summary\&quot; \: \&quot;Get user with given ID\&quot;\,\n\&quot;parameters\&quot; \: \[ \{\n\&quot;name\&quot; \: \&quot;userId\&quot;\,\n\&quot;in\&quot; \: \&quot;path\&quot;\,\n\&quot;description\&quot; \: \&quot;ID of user that we want to find\&quot;\,\n\&quot;required\&quot; \: true\,\n\&quot;type\&quot; \: \&quot;string\&quot;\n\} \]\,\n\&quot;responses\&quot; \: \{\n\&quot;200\&quot; \: \{\n\&quot;description\&quot; \: \&quot;User is found\&quot;\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/User\&quot;\n\}\n\}\n\}\n\}\,\n\&quot;put\&quot; \: \{\n\&quot;tags\&quot; \: \[ \&quot;User\&quot; \]\,\n\&quot;summary\&quot; \: \&quot;Update user with give ID\&quot;\,\n\&quot;parameters\&quot; \: \[ \{\n\&quot;name\&quot; \: \&quot;userId\&quot;\,\n\&quot;in\&quot; \: \&quot;path\&quot;\,\n\&quot;description\&quot; \: \&quot;ID of user that we want to find\&quot;\,\n\&quot;required\&quot; \: true\,\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\, \{\n\&quot;in\&quot; \: \&quot;body\&quot;\,\n\&quot;name\&quot; \: \&quot;user\&quot;\,\n\&quot;description\&quot; \: \&quot;User with new values of properties\&quot;\,\n\&quot;required\&quot; \: false\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/User\&quot;\n\}\n\} \]\,\n\&quot;responses\&quot; \: \{\n\&quot;200\&quot; \: \{\n\&quot;description\&quot; \: \&quot;User is updated\&quot;\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/User\&quot;\n\}\n\}\n\}\n\}\,\n\&quot;delete\&quot; \: \{\n\&quot;tags\&quot; \: \[ \&quot;User\&quot; \]\,\n\&quot;summary\&quot; \: \&quot;Delete user with given ID\&quot;\,\n\&quot;parameters\&quot; \: \[ \{\n\&quot;name\&quot; \: \&quot;userId\&quot;\,\n\&quot;in\&quot; \: \&quot;path\&quot;\,\n\&quot;description\&quot; \: \&quot;ID of user that we want to find\&quot;\,\n\&quot;required\&quot; \: true\,\n\&quot;type\&quot; \: \&quot;string\&quot;\n\} \]\,\n\&quot;responses\&quot; \: \{\n\&quot;200\&quot; \: \{\n\&quot;description\&quot; \: \&quot;User is deleted\&quot;\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/User\&quot;\n\}\n\}\n\}\n\}\n\}\,\n\&quot;\/auth\&quot; \: \{\n\&quot;post\&quot; \: \{\n\&quot;tags\&quot; \: \[ \&quot;Auth\&quot; \]\,\n\&quot;summary\&quot; \: \&quot;Attempt to log use in system\&quot;\,\n\&quot;produces\&quot; \: \[ \&quot;application\/json\&quot; \]\,\n\&quot;parameters\&quot; \: \[ \{\n\&quot;in\&quot; \: \&quot;body\&quot;\,\n\&quot;name\&quot; \: \&quot;user\&quot;\,\n\&quot;description\&quot; \: \&quot;User that we want to login with\&quot;\,\n\&quot;required\&quot; \: false\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/Auth\&quot;\n\}\n\} \]\,\n\&quot;responses\&quot; \: \{\n\&quot;200\&quot; \: \{\n\&quot;description\&quot; \: \&quot;User token generated\&quot;\,\n\&quot;schema\&quot; \: \{\n\&quot;\$ref\&quot; \: \&quot;\#\/definitions\/Token\&quot;\n\}\n\}\,\n\&quot;401\&quot; \: \{\n\&quot;description\&quot; \: \&quot;Invalid user e\-mail or password\&quot;\n\}\n\}\n\}\n\}\n\}\,\n\&quot;definitions\&quot; \: \{\n\&quot;User\&quot; \: \{\n\&quot;required\&quot; \: \[ \&quot;email\&quot;\, \&quot;firstName\&quot;\, \&quot;lastName\&quot;\, \&quot;phone\&quot;\, \&quot;role\&quot; \]\,\n\&quot;properties\&quot; \: \{\n\&quot;email\&quot; \: \{\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\,\n\&quot;firstName\&quot; \: \{\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\,\n\&quot;lastName\&quot; \: \{\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\,\n\&quot;phone\&quot; \: \{\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\,\n\&quot;role\&quot; \: \{\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\n\}\,\n\&quot;example\&quot; \: \{\n\&quot;firstName\&quot; \: \&quot;User\&quot;\,\n\&quot;lastName\&quot; \: \&quot;Name\&quot;\,\n\&quot;email\&quot; \: \&quot;user\@email\.com\&quot;\,\n\&quot;phone\&quot; \: \&quot;\(99\)99999\-9999\&quot;\,\n\&quot;password\&quot; \: \&quot;userPassword\&quot;\,\n\&quot;role\&quot; \: \&quot;CLIENT\&quot;\n\}\n\}\,\n\&quot;Auth\&quot; \: \{\n\&quot;required\&quot; \: \[ \&quot;email\&quot;\, \&quot;password\&quot; \]\,\n\&quot;properties\&quot; \: \{\n\&quot;email\&quot; \: \{\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\,\n\&quot;password\&quot; \: \{\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\n\}\,\n\&quot;example\&quot; \: \{\n\&quot;email\&quot; \: \&quot;user\@email\.com\&quot;\,\n\&quot;password\&quot; \: \&quot;userPassword\&quot;\n\}\n\}\,\n\&quot;Token\&quot; \: \{\n\&quot;required\&quot; \: \[ \&quot;x\-access\-token\&quot; \]\,\n\&quot;properties\&quot; \: \{\n\&quot;x\-access\-token\&quot; \: \{\n\&quot;type\&quot; \: \&quot;string\&quot;\n\}\n\}\,\n\&quot;example\&quot; \: \{\n\&quot;x\-access\-token\&quot; \: \&quot;eyJhbGciI1NiIsInR5cC\.eyJlbWFpbTc2MTEzfQ\.jJhI2hgPM4ZV\-\-mSB9tHSY\&quot;\n\}\n\}\n\}\n\}\n</find>
-      <find>get_signup</find>
-      <find>tag</find>
-      <find>proxy</find>
-      <find>App.css</find>
-      <find>logo</find>
-      <find>import React from \'react\'\;\nimport \* as ReactBootstrap from \&quot;react\-bootstrap\&quot;\;\n\/\/ const Jumbotron \= ReactBootstrap\.Jumbotron\;\nconst Button \= ReactBootstrap\.Button\;\nconst Table \= ReactBootstrap\.Table\;\n\n\nconst  Headapp \= props \=\&gt; \{\n    return \(\n        \&lt;html lang\=\&quot;en\&quot;\&gt;\n        \&lt;head\&gt;\n            \&lt;meta charSet\=\&quot;UTF\-8\&quot;\&gt;\n                \&lt;title\&gt;Sample Site\&lt;\/title\&gt;\n                \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;\/\/maxcdn\.bootstrapcdn\.com\/bootstrap\/3\.3\.1\/css\/bootstrap\.min\.css\&quot;\/\&gt;\n                \&lt;script src\=\&quot;https\:\/\/code\.jquery\.com\/jquery\-2\.2\.0\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\n        \&lt;\/head\&gt;\n        \&lt;body\&gt;\n        \&lt;div className\=\&quot;container col\-sm\-12\&quot; id\=\&quot;mainform\&quot;\&gt;\n            \&lt;div id\=\&quot;signupbox\&quot; style\=\&quot; margin\-top\:50px\&quot;\n                 className\=\&quot;mainbox col\-md\-6 col\-md\-offset\-3 col\-sm\-8 col\-sm\-offset\-2\&quot;\&gt;\n\n                \&lt;div className\=\&quot;panel panel\-info\&quot;\&gt;\n                    \&lt;div className\=\&quot;panel\-heading\&quot;\&gt;\n                        \&lt;div className\=\&quot;panel\-title\&quot;\&gt;Sign Up\&lt;\/div\&gt;\n                        \&lt;div style\=\&quot;float\:right\; font\-size\: 85\%\; position\: relative\; top\:\-10px\&quot;\&gt;\&lt;a id\=\&quot;signinlink\&quot;\n                                                                                                   href\=\&quot;\/\&quot;\&gt;Sign In\&lt;\/a\&gt;\n                        \&lt;\/div\&gt;\n                    \&lt;\/div\&gt;\n                    \&lt;div className\=\&quot;panel\-body\&quot;\&gt;\n                        \&lt;form className\=\&quot;form\-horizontal\&quot; role\=\&quot;form\&quot; method\=\&quot;post\&quot; action\=\&quot;\/signup\&quot;\n                              onSubmit\=\&quot;return checkblank\(this\)\;\&quot;\&gt;\n                            \&lt;\n                            \% if \(message\.length\&gt; 0\) \{\%\&gt;\n                            \&lt;div class\=\&quot;alert alert\-success col\-sm\-12\&quot;\&gt;\&lt;\%\= message \%\&gt;\&lt;\/div\&gt;\n                            \&lt;\% \} \%\&gt;\n                            \&lt;div id\=\&quot;signupalert\&quot; style\=\&quot;display\:none\&quot; class\=\&quot;alert alert\-danger\&quot;\&gt;\n                            \&lt;p\&gt;Error\:\&lt;\/p\&gt;\n                            \&lt;span\&gt;\&lt;\/span\&gt;\n                            \&lt;\/div\&gt;\n\n                            \&lt;div class\=\&quot;form\-group\&quot;\&gt;\n                            \&lt;label for\=\&quot;first_name\&quot; class\=\&quot;col\-md\-3 control\-label\&quot;\&gt;First Name\&lt;\/label\&gt;\n                            \&lt;div class\=\&quot;col\-md\-9\&quot;\&gt;\n                            \&lt;input type\=\&quot;text\&quot; class\=\&quot;form\-control\&quot; name\=\&quot;first_name\&quot; placeholder\=\&quot;First Name\&quot;\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;div class\=\&quot;form\-group\&quot;\&gt;\n                            \&lt;label for\=\&quot;last_name\&quot; class\=\&quot;col\-md\-3 control\-label\&quot;\&gt;Last Name\&lt;\/label\&gt;\n                            \&lt;div class\=\&quot;col\-md\-9\&quot;\&gt;\n                            \&lt;input type\=\&quot;text\&quot; class\=\&quot;form\-control\&quot; name\=\&quot;last_name\&quot; placeholder\=\&quot;Last Name\&quot;\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;div class\=\&quot;form\-group\&quot;\&gt;\n                            \&lt;label for\=\&quot;mob_no\&quot; class\=\&quot;col\-md\-3 control\-label\&quot;\&gt;Mobile Number\&lt;\/label\&gt;\n                            \&lt;div class\=\&quot;col\-md\-9\&quot;\&gt;\n                            \&lt;input type\=\&quot;number\&quot; class\=\&quot;form\-control\&quot; name\=\&quot;mob_no\&quot; placeholder\=\&quot;Mobile Number\&quot;\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;div class\=\&quot;form\-group\&quot;\&gt;\n                            \&lt;label for\=\&quot;user_name\&quot; class\=\&quot;col\-md\-3 control\-label\&quot;\&gt;User Name\&lt;\/label\&gt;\n                            \&lt;div class\=\&quot;col\-md\-9\&quot;\&gt;\n                            \&lt;input type\=\&quot;text\&quot; class\=\&quot;form\-control\&quot; name\=\&quot;user_name\&quot; placeholder\=\&quot;User Name\&quot;\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;div class\=\&quot;form\-group\&quot;\&gt;\n                            \&lt;label for\=\&quot;password\&quot; class\=\&quot;col\-md\-3 control\-label\&quot;\&gt;Password\&lt;\/label\&gt;\n                            \&lt;div class\=\&quot;col\-md\-9\&quot;\&gt;\n                            \&lt;input type\=\&quot;password\&quot; class\=\&quot;form\-control\&quot; name\=\&quot;password\&quot; placeholder\=\&quot;Password\&quot;\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;\/div\&gt;\n\n                            \&lt;div class\=\&quot;form\-group\&quot;\&gt;\n                            \&lt;\!\-\- Button \-\-\&gt;\n                            \&lt;div class\=\&quot;col\-md\-offset\-3 col\-md\-9\&quot;\&gt;\n                            \&lt;button action\=\&quot;\/signup\&quot;id\=\&quot;btn\-signup\&quot; type\=\&quot;submit\&quot; class\=\&quot;btn btn\-info\&quot;\&gt;\&lt;i class\=\&quot;icon\-hand\-right\&quot;\&gt;\&lt;\/i\&gt; \&amp;nbsp Sign Up\&lt;\/button\&gt;\n\n                            \&lt;\/div\&gt;\n                            \&lt;\/div\&gt;\n\n\n\n\n                            \&lt;\/form\&gt;\n                            \&lt;\/div\&gt;\n                            \&lt;\/div\&gt;\n\n\n                            \&lt;\/div\&gt;\n                            \&lt;\/div\&gt;\n\n                            \&lt;\/body\&gt;\n                            \&lt;\/html\&gt;\n\n\}\;\n\nexport  default  Headapp</find>
-      <find>axios\n\n\n          \.get\(\'\/tasks\'\, \(req\, res\) \=\&gt; \{\n          res\.send\(\{ express\: \'Hello From Express\' \}\)\;\n      \}\)\;\n  \}</find>
       <find>Headapp</find>
       <find>mdbreact</find>
       <find>hashHistory</find>
@@ -276,6 +276,22 @@
       <find>salve</find>
       <find>volta</find>
       <find>retornatasks</find>
+      <find>releasesForm</find>
+      <find>ReleaseForm</find>
+      <find>express</find>
+      <find>\n\nvalidacao\: \&quot;\&quot;\,  task\: \{\n        descricao \: \'ok\'\,\n        data_inicio\: \'10\/18\/2018\'\,\n        data_fim\: \'10\/18\/2018\'\n    \}\n   \n</find>
+      <find>contador</find>
+      <find>estilo</find>
+      <find>this.state.serverports.map</find>
+      <find>import React\, \{ Component \} from \'react\'\;\nimport \{ Navbar\, Nav\, LinkContainer \} from \'react\-bootstrap\'\;\n\n\n\n\n\nclass MainNav extends Component \{\n    render\(\) \{\n        return \(\n            \&lt;Navbar inverse collapseOnSelect\&gt;\n                \&lt;Navbar\.Header\&gt;\n                    \&lt;Navbar\.Brand\&gt;\n                        \&lt;a href\=\&quot;\/Task\&quot;\&gt;Task\&lt;\/a\&gt;\n                    \&lt;\/Navbar\.Brand\&gt;\n                    \&lt;Navbar\.Toggle \/\&gt;\n                \&lt;\/Navbar\.Header\&gt;\n                        \&lt;Navbar\.Collapse\&gt;\n                            \&lt;Navbar\.Brand\&gt;\n                                \&lt;a href\=\&quot;\/\&quot;\&gt;Volta\&lt;\/a\&gt;\n                            \&lt;\/Navbar\.Brand\&gt;\n                \&lt;\/Navbar\.Collapse\&gt;\n            \&lt;\/Navbar\&gt;\n        \)\n    \}\n\}\n\nexport default MainNav\;\n\n\n</find>
+      <find>import React\, \{ Component \} from \'react\'\;\nimport \{ Navbar\, Nav\, LinkContainer \} from \'react\-bootstrap\'\;\n\n\n\n\n\nclass MainNav extends Component \{\n    render\(\) \{\n        return \(\n            \&lt;Navbar inverse collapseOnSelect\&gt;\n                \&lt;Navbar\.Header\&gt;\n                    \&lt;Navbar\.Brand\&gt;\n                        \&lt;a href\=\&quot;\/Task\&quot;\&gt;Task\&lt;\/a\&gt;\n                    \&lt;\/Navbar\.Brand\&gt;\n                    \&lt;Navbar\.Toggle \/\&gt;\n                \&lt;\/Navbar\.Header\&gt;\n                        \&lt;Navbar\.Collapse\&gt;\n                            \&lt;Navbar\.Brand\&gt;\n                                \&lt;a href\=\&quot;\/\&quot;\&gt;Volta\&lt;\/a\&gt;\n                            \&lt;\/Navbar\.Brand\&gt;\n                \&lt;\/Navbar\.Collapse\&gt;\n            \&lt;\/Navbar\&gt;\n        \)\n    \}\n\}\n\nexport default MainNav\;\n\n</find>
+      <find>length</find>
+      <find>console</find>
+      <find>salvarTask</find>
+      <find>criou a tabela</find>
+      <find>con</find>
+      <find>class Init extends Component \{\n    render\(\) \{\n        return \(\n            \&lt;div\&gt;\n                    \&lt;MainNav  \/\&gt;\n                \&lt;div className\=\&quot;card bg\-dark text\-white\&quot;\&gt;\n                    \&lt;img  width\=\&quot;100\%\&quot; src\=\{require\(\'\.\.\/img\/images\.jpg\'\)\}  \/\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n\n        \)\;\n    \}\n\}</find>
+      <find>le</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -292,15 +308,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/routes/noticias.js" />
-        <option value="$PROJECT_DIR$/app/routes/task.js" />
-        <option value="$PROJECT_DIR$/app/views/admin/form_add_noticia.ejs" />
-        <option value="$PROJECT_DIR$/app/views/noticias/noticias.ejs" />
-        <option value="$PROJECT_DIR$/app/views/user/signup.ejs" />
-        <option value="$PROJECT_DIR$/app/views/user/header.ejs" />
-        <option value="$PROJECT_DIR$/app/routes/admin.js" />
         <option value="$PROJECT_DIR$/app/views/home/index.ejs" />
-        <option value="$PROJECT_DIR$/app/routes/user.js" />
         <option value="$PROJECT_DIR$/config/dbConnection.js" />
         <option value="$PROJECT_DIR$/app/controllers/user.js" />
         <option value="$PROJECT_DIR$/app/controllers/home.js" />
@@ -308,13 +316,10 @@
         <option value="$PROJECT_DIR$/apidoc.json" />
         <option value="$PROJECT_DIR$/mod_teste.js" />
         <option value="$PROJECT_DIR$/swagger.json" />
-        <option value="$PROJECT_DIR$/config/server.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/front/src/componentes/header.js" />
         <option value="$PROJECT_DIR$/front/src/componentes/App.js" />
         <option value="$PROJECT_DIR$/front/src/App.css" />
         <option value="$PROJECT_DIR$/front/src/index.css" />
-        <option value="$PROJECT_DIR$/app/models/taskModels.js" />
         <option value="$PROJECT_DIR$/front/src/login.css" />
         <option value="$PROJECT_DIR$/app/routes/home.js" />
         <option value="$PROJECT_DIR$/front/src/componentes/login.js.html" />
@@ -327,22 +332,33 @@
         <option value="$PROJECT_DIR$/front/src/componentes/ui/NavBar.js" />
         <option value="$PROJECT_DIR$/front/src/componentes/FormReleases.js" />
         <option value="$PROJECT_DIR$/front/src/componentes/modal.js" />
-        <option value="$PROJECT_DIR$/front/src/componentes/init.js" />
         <option value="$PROJECT_DIR$/front/src/componentes/ui/User.js" />
-        <option value="$PROJECT_DIR$/front/src/componentes/modal2.js" />
-        <option value="$PROJECT_DIR$/front/package.json" />
         <option value="$PROJECT_DIR$/front/src/Test.js" />
-        <option value="$PROJECT_DIR$/app/controllers/admin.js" />
-        <option value="$PROJECT_DIR$/front/src/teste/unitTest.js" />
-        <option value="$PROJECT_DIR$/front/src/componentes/MainNav.js" />
         <option value="$PROJECT_DIR$/front/src/reactUtils.js" />
         <option value="$PROJECT_DIR$/app/controllers/task.js" />
         <option value="$PROJECT_DIR$/front/public/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/config/server.js" />
+        <option value="$PROJECT_DIR$/front/src/teste/unitTest.js" />
+        <option value="$PROJECT_DIR$/front/package.json" />
+        <option value="$PROJECT_DIR$/front/src/App.test.js" />
+        <option value="$PROJECT_DIR$/app/routes/task.js" />
         <option value="$PROJECT_DIR$/front/src/App.js" />
-        <option value="$PROJECT_DIR$/front/src/componentes/ui/ReleaseForm.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/routes/user.js" />
+        <option value="$PROJECT_DIR$/app/routes/admin.js" />
+        <option value="$PROJECT_DIR$/front/src/componentes/modal.html" />
+        <option value="$PROJECT_DIR$/front/src/modal.js" />
+        <option value="$PROJECT_DIR$/app/controllers/admin.js" />
+        <option value="$PROJECT_DIR$/app/models/taskModels.js" />
+        <option value="$PROJECT_DIR$/front/src/componentes/init.js" />
         <option value="$PROJECT_DIR$/front/src/componentes/Contador.js" />
+        <option value="$PROJECT_DIR$/front/src/componentes/MainNav.js" />
+        <option value="$PROJECT_DIR$/front/src/componentes/Modal.js" />
+        <option value="$PROJECT_DIR$/front/src/componentes/modal2.js" />
         <option value="$PROJECT_DIR$/front/src/componentes/Releases.js" />
+        <option value="$PROJECT_DIR$/front/src/componentes/FormTask.js" />
+        <option value="$PROJECT_DIR$/front/src/componentes/ui/ReleaseForm.js" />
       </list>
     </option>
   </component>
@@ -374,13 +390,29 @@
     <option name="width" value="1377" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>JSON and JSON5</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JsonStandardCompliance</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,7 +441,34 @@
               <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
               <item name="p3_back" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p3_back" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p3_back" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p3_back" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p3_back" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="noticias" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
@@ -426,6 +485,12 @@
               <item name="p3_back" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p3_back" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
@@ -448,17 +513,11 @@
               <item name="componentes" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="p3_back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p3_back" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,7 +525,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/front/node_modules/react-scripts" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/front/node_modules/jest" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -504,7 +563,19 @@
       <test-file value="$PROJECT_DIR$/front/src/App.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="unitTest.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;ReleaseForm /&gt;" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/front" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/front/src/teste/unitTest.js" />
+      <test-names>
+        <test-name value="&lt;ReleaseForm /&gt;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="unitTest.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$/front" />
@@ -525,25 +596,21 @@
     <configuration name="mod_teste.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="mod_teste.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="personRepository.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="personRepository.js" working-dir="$PROJECT_DIR$/p3/config">
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Node.js.mod_teste.js" />
       <item itemvalue="Node.js.Unnamed" />
-      <item itemvalue="Node.js.personRepository.js" />
+      <item itemvalue="Jest.unitTest.js" />
       <item itemvalue="Node.js.db.js" />
       <item itemvalue="Jest.App.test.js" />
       <item itemvalue="Node.js.Test.js" />
-      <item itemvalue="Jest.unitTest.js" />
+      <item itemvalue="Jest.&lt;ReleaseForm /&gt;" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.unitTest.js" />
+        <item itemvalue="Jest.&lt;ReleaseForm /&gt;" />
         <item itemvalue="Node.js.Test.js" />
         <item itemvalue="Jest.App.test.js" />
         <item itemvalue="Node.js.db.js" />
-        <item itemvalue="Node.js.personRepository.js" />
       </list>
     </recent_temporary>
   </component>
@@ -610,13 +677,23 @@
       <workItem from="1544832074333" duration="2728000" />
       <workItem from="1544842146249" duration="7341000" />
       <workItem from="1544923046544" duration="7595000" />
+      <workItem from="1544931972888" duration="297000" />
+      <workItem from="1545009251321" duration="1123000" />
+      <workItem from="1545343547889" duration="2033000" />
+      <workItem from="1545348108207" duration="11783000" />
+      <workItem from="1545363997697" duration="801000" />
+      <workItem from="1545408536394" duration="1198000" />
+      <workItem from="1545412533336" duration="1529000" />
+      <workItem from="1545446369799" duration="1638000" />
+      <workItem from="1545437800229" duration="2898000" />
+      <workItem from="1545508861340" duration="18929000" />
+      <workItem from="1545578577455" duration="2026000" />
+      <workItem from="1545580721276" duration="9420000" />
+      <workItem from="1545611246067" duration="13350000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="App_test_js - 2018.12.14 at 22h 14m 16s.xml">
-      <configuration name="App.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="unitTest_js - 2018.12.15 at 01h 02m 33s.xml">
       <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -626,9 +703,30 @@
     <history-entry file="unitTest_js - 2018.12.15 at 01h 39m 54s.xml">
       <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="unitTest_js - 2018.12.20 at 23h 25m 25s.xml">
+      <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="unitTest_js - 2018.12.20 at 23h 29m 51s.xml">
+      <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="unitTest_js - 2018.12.20 at 23h 35m 06s.xml">
+      <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="unitTest_js - 2018.12.20 at 23h 44m 46s.xml">
+      <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="unitTest_js - 2018.12.20 at 23h 47m 32s.xml">
+      <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="unitTest_js - 2018.12.20 at 23h 47m 42s.xml">
+      <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="unitTest_js - 2018.12.21 at 13h 09m 17s.xml">
+      <configuration name="unitTest.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225734000" />
+    <option name="totallyTimeSpent" value="292759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,25 +738,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.92254734" visible="true" weight="0.20788912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.92254734" visible="true" weight="0.1264489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.07745267" side_tool="true" visible="true" weight="0.14910433" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37333333" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42333335" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32777777" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32555556" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3280255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3288889" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.20555556" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36666667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24946696" />
@@ -703,64 +801,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/node_modules/react-bootstrap-form/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Nova pasta (2)/alpha-project-web-master/src/component/user/LoginPage.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/Connection.js">
+    <entry file="file://$PROJECT_DIR$/../../Nova pasta (5)/p3_Frontend/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9519">
-          <caret line="501" column="9" selection-start-line="501" selection-start-column="9" selection-end-line="501" selection-end-column="9" />
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/node_modules/react-bootstrap/es/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/front/npm-debug.log" />
+    <entry file="file://$PROJECT_DIR$/front/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
+        <state relative-caret-position="-3306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/front/node_modules/react-dom/cjs/react-dom.development.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="115">
+          <caret line="19595" column="2" selection-start-line="19595" selection-start-column="2" selection-end-line="19595" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mod_teste.js">
+    <entry file="file://$PROJECT_DIR$/front/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="437">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/Test.js" />
-    <entry file="file://$PROJECT_DIR$/front/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246430">
-          <caret line="12970" column="49" selection-start-line="12970" selection-start-column="49" selection-end-line="12970" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/ui/User.js" />
     <entry file="file://$PROJECT_DIR$/front/src/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -768,42 +839,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Nova pasta (2)/Minha-Academia-BackEnd-master/src/cliente/cliente.router.js">
+    <entry file="file://$PROJECT_DIR$/front/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/scripts/build.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Nova pasta (2)/Minha-Academia-BackEnd-master/src/cliente/cliente.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Nova pasta (2)/Minha-Academia-BackEnd-master/src/treino-especifico/treino-especifico.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Nova pasta (2)/Minha-Academia-BackEnd-master/src/treino-especifico/treino-especifico.controller.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Nova pasta (2)/Minha-Academia-BackEnd-master/src/treino-especifico/treino-especifico.router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/teste/unitTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -812,142 +856,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/teste/unitTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/react-bootstrap/lib/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Nova pasta (6)/p3_Frontend/src/componentes/Contador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="24" lean-forward="true" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/scripts/test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/scripts/start.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="43" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+        <state relative-caret-position="7543">
+          <caret line="397" column="6" selection-start-line="397" selection-start-column="6" selection-end-line="397" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/reactUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="28" />
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/componentes/init.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Nova pasta (4)/p3_back/config/server.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/componentes/ui/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/componentes/modal2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="417" column="8" selection-start-line="417" selection-start-column="8" selection-end-line="417" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/componentes/MainNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/componentes/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/node_modules/axios/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/node_modules/isomorphic-fetch/fetch-npm-node.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/home.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/taskModels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/user.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="433">
+          <caret line="10633" column="4" selection-start-line="10633" selection-start-column="4" selection-end-line="10633" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -960,62 +951,193 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="-156">
+          <caret line="10" column="9" selection-start-line="10" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/front/src/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="1539">
+          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/App.js">
+    <entry file="file://$PROJECT_DIR$/../../Nova pasta (6)/p3_Frontend/src/componentes/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="281">
+          <caret line="83" lean-forward="true" selection-end-line="87" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="403" column="8" selection-start-line="403" selection-start-column="8" selection-end-line="403" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/taskModels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/home.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/form_add_noticia.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/noticias/noticia.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/noticias/noticias.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="34" selection-start-line="33" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/MainNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/Contador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/Releases.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/modal2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="62" column="35" selection-start-line="62" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/componentes/FormTask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/componentes/ui/ReleaseForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/componentes/Contador.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/componentes/Releases.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1418">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="532">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>

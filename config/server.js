@@ -5,8 +5,10 @@ var expressValidator = require('express-validator');
 var session = require('express-session');
 var swaggerUi =  require('swagger-ui-express');
     swaggerDocument =  require('../swagger.json');
+var cors = require('cors');
 
 var app = express();
+app.use(cors());
 
 app.set('view engine', 'ejs');
 app.set('views', './app/views');
@@ -20,6 +22,10 @@ app.use(session({
     saveUninitialized: true,
     cookie: { maxAge: 60000 }
 }));
+
+
+
+
 
 consign()
     .include('app/routes')

@@ -7,6 +7,7 @@
     "body-parser": "^1.18.3",
     "config": "^1.28.1",
     "consign": "^0.1.6",
+    "cors": "^2.8.5",
     "debug": "^3.1.0",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
@@ -36,6 +37,7 @@
     "url": "https://github.com/AlbertoWagner/p3_back/issues"
   },
   "homepage": "https://github.com/AlbertoWagner/p3_back#readme",
-  "proxy":"https://localhost:3000/api"
+  "proxy": "https://localhost:3000/api"
 
+  
 }

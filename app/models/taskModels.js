@@ -14,7 +14,7 @@ function TaskModels(connection){
 
     connection.query(sql, function (error, results, fields){
             if(error) return console.log(error);
-            console.log('criou a tabela!');
+            console.log('criou a tabela erro!', error);
         });
 
     var sql2 = "CREATE TABLE IF NOT EXISTS `task` (\n"+
@@ -26,7 +26,6 @@ function TaskModels(connection){
 
     connection.query(sql2, function (error, results, fields){
         if(error) return console.log(error);
-        console.log('criou a tabela!');
     });
 
 
@@ -41,7 +40,7 @@ TaskModels.prototype.getTask = function(id, callback){
 };
 
 TaskModels.prototype.salvarTask = function(task, callback){
-    console.log(task);
+    console.log('task2' ,task, callback);
     this._connection.query('INSERT INTO task SET ?', task, callback);
 };
 
@@ -85,7 +84,6 @@ TaskModels.prototype.usuarioExiste = function(user,callback){
 
 
 TaskModels.prototype.salvarUser = function(user, callback){
-    console.log(user);
     this._connection.query('INSERT INTO users SET ?', user, callback);
 };
 

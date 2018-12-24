@@ -4,20 +4,9 @@ module.exports.formulario_inclusao_task = function(application, req, res){
 
 module.exports.task_salvar = function(application, req, res){
     var task = req.body;
-    req.assert('descricao', 'Descrição é obrigatório').notEmpty();
-    req.assert('data_inicio', 'Data é obrigatório').notEmpty();
-    req.assert('data_fim', 'Data é obrigatório').notEmpty();
-    var erros = req.validationErrors();
-    if(erros){
-        res.render('admin/form_add_noticia', {validacao: erros,  task: task});
-        // retornando post
-        res.json({ message: "Anúncio atualizado.", anuncio });
-
-        return;
-    }
-
     var connection = application.config.dbConnection();
     var taskModel = new application.app.models.taskModels(connection);
+
     taskModel.salvarTask(task, function(error, result){
         res.redirect('/tasks');
     });
